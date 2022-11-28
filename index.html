@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <link href="css/style.css" rel="stylesheet" />
+
+
+   
+
+
+
+
+    
+    <div class="Contenedor1">
+
+
+        <div class="Contenedor2">
+
+
+
+                                 
+    <div class="container">
+        <!-- Contenedor de tablero y puntaje -->
+      
+        <div class="puntaje">
+          <!-- Puntaje -->
+          <div class="puntos" id="puntos">00</div>
+          <div class="smile">
+            <p class="level">level:</p>
+            <a href="http://alejandronarvaja.com" target=_blank id="smile">
+              <img src="http://alejandronarvaja.com/buscaminas-cssgrid/img/256-Star-Wars-1.svg" alt="">
+            </a>
+          </div>
+          <div class="tiempo" id="tiempo">00</div>
+        </div>
+      
+        <ul class="tablero">
+          <!-- Tablero de juego -->
+          <li class="ladrillo"></li>
+          <li><i class="fa fa-bomb"></i></li>
+          <li class="numero2">2</li>
+          <li class="ladrillo"></li>
+          <li><i class="fa fa-flag"></i></li>
+          <li><i class="fa fa-flag"></i></li>
+          <li class="ladrillo"></li>
+          <li><i class="fa fa-bomb"></i></li>
+          <li><i class="fa fa-bomb"></i></li>
+          <li class="ladrillo"></li>
+          <li class="numero2">2</li>
+          <li><i class="fa fa-flag"></i></li>
+          <li class="ladrillo"></li>
+          <li class="ladrillo"></li>
+          <li><i class="fa fa-flag"></i></li>
+          <li class="ladrillo"></li>
+          <li class="numero2">2</li>
+          <li class="numero2">2</li>
+          <li><i class="fa fa-bomb"></i></li>
+          <li><i class="fa fa-bomb"></i></li>
+          <li class="ladrillo"></li>
+          <li class="numero1">1</li>
+          <li><i class="fa fa-flag"></i></li>
+          <li><i class="fa fa-flag"></i></li>
+          <li><i class="fa fa-flag"></i></li>
+          <li class="ladrillo"></li>
+          <li class="ladrillo"></li>
+          <li class="ladrillo"></li>
+          <li class="numero2">2</li>
+          <li class="ladrillo"></li>
+          <li class="lost"><i class="fa fa-bomb"></i></li>
+          <li><i class="fa fa-bomb"></i></li>
+          <li><i class="fa fa-bomb"></i></li>
+          <li class="ladrillo"></li>
+          <li class="numero1">1</li>
+          <li class="ladrillo"></li>
+          <li><i class="fa fa-flag"></i></li>
+          <li class="ladrillo"></li>
+          <li class="numero2">2</li>
+          <li class="numero2">2</li>
+          <li class="ladrillo"></li>
+          <li class="ladrillo"></li>
+          <li><i class="fa fa-bomb"></i></li>
+          <li><i class="fa fa-bomb"></i></li>
+          <li class="ladrillo"></li>
+          <li class="ladrillo"></li>
+          <li class="ladrillo"></li>
+          <li><i class="fa fa-flag"></i></li>
+          <li><i class="fa fa-flag"></i></li>
+          <li class="ladrillo"></li>
+          <li class="ladrillo"></li>
+          <li class="numero2">2</li>
+          <li class="ladrillo"></li>
+          <li class="ladrillo"></li>
+          <li class="ladrillo"></li>
+          <li><i class="fa fa-trophy"></i></li>
+          <li class="ladrillo"></li>
+          <li class="ladrillo"></li>
+          <li><i class="fa fa-bomb"></i></li>
+          <li><i class="fa fa-bomb"></i></li>
+          <li class="numero2">2</li>
+          <li><i class="fa fa-flag"></i></li>
+          <li class="ladrillo"></li>
+          <li class="ladrillo"></li>
+          <li class="numero1">1</li>
+          <li class="ladrillo"></li>
+          <li class="numero1">1</li>
+          <li class="ladrillo"></li>
+          <li class="ladrillo"></li>
+          <li><i class="fa fa-flag"></i></li>
+          <li><i class="fa fa-bomb"></i></li>
+          <li><i class="fa fa-bomb"></i></li>
+          <li><i class="fa fa-bomb"></i></li>
+          <li class="ladrillo"></li>
+          <li><i class="fa fa-flag"></i></li>
+          <li><i class="fa fa-flag"></i></li>
+          <li class="ladrillo"></li>
+          <li class="numero1">1</li>
+          <li class="ladrillo"></li>
+          <li><i class="fa fa-bomb"></i></li>
+          <li><i class="fa fa-bomb"></i></li>
+        </ul>
+       </div>
+
+        
+
+
+
+
+
+
+
+        </div>
+
+
+
+        <div class="Contenedor3">
+
+
+
+            <center><h1>Botones pulsados</h1></center>
+  
+         <div id="desplegable">
+          <div class="delimitador">
+            <p>Selector:</p>
+            <p id="selector"></p>
+          </div>
+          <div class="delimitador">
+            <p>Value:</p>
+            <p id="value"></p>
+          </div>
+          <div class="delimitador">
+            <p>Tag HTML:</p>
+            <p id="tagHtml"></p>
+          </div>
+          <div class="delimitador">
+            <p>Name:</p>
+            <p id="name"></p>
+         </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/events.js"></script>
+
+          
+      
+
+    
+    
+</body>
+</html>
